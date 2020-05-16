@@ -1,12 +1,22 @@
 import React from "react";
 import "./App.css";
-import { LandingPage } from "./pages";
+import { LandingPage, FavnapmPage } from "./pages";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <LandingPage />
-    </div>
+    <HashRouter>
+      <div className="App">
+        <Switch>
+          <Route exact path={"/"}>
+            <LandingPage />
+          </Route>
+          <Route exact path={"/favnpm"}>
+            <FavnapmPage />
+          </Route>
+        </Switch>
+      </div>
+    </HashRouter>
   );
 }
 

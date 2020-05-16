@@ -1,0 +1,14 @@
+.unitnpm {
+  width: fit-content;
+  background: #f92020;
+  border: 5px solid #f92020;
+  border-radius: 5px;
+  white-space: nowrap;
+  cursor: pointer;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.unitnpm:hover {
+  padding: 0px 10px;
+}
