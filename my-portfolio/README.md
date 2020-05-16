@@ -1,2 +1,2 @@
-Hi! there :grinning:, i'm maintaining this repo to Brand my self and log my learning and choices of technology  i use in my profession .This repo will getting  updating 
+Hi! there :wave:, i'm maintaining this repo to Brand my self :sunglasses: and log my learning :books: and choices of lib  i use in my profession .This repo will getting  updating 
 with me. 
