@@ -1,0 +1,33 @@
+.sidebar-container {
+  position: absolute;
+  width: 611px;
+  height: calc(100% - 43px);
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.45);
+  color: white;
+  padding: 43px 10px 0px 97px;
+}
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 64px;
+  font-weight: 100;
+}
+.sidebar-header strong {
+  font-weight: 400;
+}
+.sidebar-header::before {
+  content: "I";
+  font-weight: 500;
+  margin-right: 10px;
+}
+.sidebar-body {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 3rem;
+  text-align: left;
+}
