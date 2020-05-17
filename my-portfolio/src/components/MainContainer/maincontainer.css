@@ -4,4 +4,12 @@
   background-position: right;
   background-repeat: no-repeat;
   background-color: black;
+  background-image: url("../../assets/images/man-bg.svg");
+}
+
+@media (max-width: 480px) {
+  .main-container {
+    background-position: top;
+    background-size: contain;
+  }
 }
