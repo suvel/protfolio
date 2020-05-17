@@ -31,7 +31,7 @@
   margin-top: 3rem;
   text-align: left;
 }
-
+/*Mobile (Smartphone)📱*/
 @media (max-width: 480px) {
   .sidebar-header {
     font-size: 30px;
@@ -44,5 +44,37 @@
     height: auto;
     background: transparent;
     padding: 28vh 10px 0px 10px;
+  }
+}
+
+/* Low Resolution Tablets and ipads */
+@media (min-width: 481px) and (max-width: 770px) {
+  .sidebar-header {
+    font-size: 32px;
+  }
+  .sidebar-body {
+    font-size: 20px;
+  }
+  .sidebar-container {
+    width: 420px;
+    height: calc(100% - 43px);
+    background: rgba(0, 0, 0, 0.45);
+    padding: 40px 10px 0 50px;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sidebar-header {
+    font-size: 36px;
+  }
+  .sidebar-body {
+    font-size: 28px;
+  }
+  .sidebar-container {
+    width: 550px;
+    height: calc(100% - 43px);
+    background: rgba(0, 0, 0, 0.45);
+    padding: 40px 10px 0 50px;
   }
 }
