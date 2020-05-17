@@ -11,7 +11,7 @@ const header = (
 const body = (
   <div>
     <p>
-      I am from Chennai , its going to be a decaed as a Software Trainee at Soft
+      I am from Chennai , its going to be a yearlong as a Software Trainee at Soft
       Suave,Bangalore. Currently working in a React{" "}
       <Emoji symbol={"⚛️"} label={"react-symbol"} /> , Firebase{" "}
       <Emoji symbol={"🔥"} label={"firebase-symbol"} /> and Core UI ( Bootstrap
