@@ -7,6 +7,7 @@
   background: rgba(0, 0, 0, 0.45);
   color: white;
   padding: 43px 10px 0px 97px;
+  overflow-y: auto;
 }
 .sidebar-header {
   display: flex;
@@ -14,6 +15,8 @@
   justify-content: flex-start;
   font-size: 64px;
   font-weight: 100;
+  text-shadow: -3px 1px 0px rgb(235, 254, 0);
+  transform: rotate(0.08deg);
 }
 .sidebar-header strong {
   font-weight: 400;
@@ -22,6 +25,8 @@
   content: "I";
   font-weight: 500;
   margin-right: 10px;
+  text-shadow: none;
+  transform: none;
 }
 .sidebar-body {
   font-style: normal;
@@ -34,7 +39,7 @@
 /*Mobile (Smartphone)📱*/
 @media (max-width: 480px) {
   .sidebar-header {
-    font-size: 30px;
+    font-size: 40px;
   }
   .sidebar-body {
     font-size: 16px;
@@ -50,7 +55,7 @@
 /* Low Resolution Tablets and ipads */
 @media (min-width: 481px) and (max-width: 770px) {
   .sidebar-header {
-    font-size: 32px;
+    font-size: 40px;
   }
   .sidebar-body {
     font-size: 20px;
@@ -66,7 +71,7 @@
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 770px) and (max-width: 1024px) {
   .sidebar-header {
-    font-size: 36px;
+    font-size: 40px;
   }
   .sidebar-body {
     font-size: 28px;
@@ -77,4 +82,9 @@
     background: rgba(0, 0, 0, 0.45);
     padding: 40px 10px 0 50px;
   }
+}
+
+.sidebar-header .emoji {
+  text-shadow: none;
+  transform: none;
 }
