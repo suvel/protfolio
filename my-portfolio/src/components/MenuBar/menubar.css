@@ -6,4 +6,13 @@
   right: 0;
   background-color: #ebff00;
   border-bottom-left-radius: 5px;
+  background-image: url("../../assets/images/maubar-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.menubar:hover {
+  width: 55px;
+  height: 55px;
+  background-image: url("../../assets/images/maubar-icon-b4.svg");
 }
