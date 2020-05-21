@@ -23,3 +23,12 @@
 .nav-bar ul li {
   margin-bottom: 1rem;
 }
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  text-decoration: line-through;
+}

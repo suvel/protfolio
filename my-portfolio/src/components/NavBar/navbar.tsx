@@ -7,8 +7,12 @@ const NavBar: FunctionComponent = () => {
       <MenuBar />
       <div className="nav-bar">
         <ul>
-          <li>about Me</li>
-          <li>fav npm</li>
+          <li>
+            <a href={"/"}>about Me</a>
+          </li>
+          <li>
+            <a href={"#/favnpm"}>fav npm</a>
+          </li>
         </ul>
       </div>
     </React.Fragment>
