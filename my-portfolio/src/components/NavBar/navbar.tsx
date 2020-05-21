@@ -5,7 +5,12 @@ const NavBar: FunctionComponent = () => {
   return (
     <React.Fragment>
       <MenuBar />
-      <div className="nav-bar">hi</div>
+      <div className="nav-bar">
+        <ul>
+          <li>about Me</li>
+          <li>fav npm</li>
+        </ul>
+      </div>
     </React.Fragment>
   );
 };
