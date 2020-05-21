@@ -20,10 +20,12 @@ const NavBar: FunctionComponent = () => {
       <div className={navBarStyle}>
         <ul>
           <li>
-            <a href={"/"}>about Me</a>
+            <a onClick={handelToggleNav} href={"#/"}>
+              about Me
+            </a>
           </li>
           <li>
-            <a href={"#/favnpm"}>fav npm</a>
+            <a onClick={handelToggleNav} href={"#/favnpm"}>fav npm</a>
           </li>
         </ul>
       </div>

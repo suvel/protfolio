@@ -3,9 +3,9 @@
   z-index: 1;
   top: 0;
   right: 0px;
-  height: 90vh;
+  height: 100%;
   background: #000;
-  width: 200px;
+  width: 20%;
   color: white;
   padding: 50px 10px 10px 10px;
   box-sizing: border-box;
@@ -37,4 +37,17 @@
   height: 0px;
   overflow: auto;
   padding: 0px;
+}
+
+@media (max-width: 480px) {
+  .nav-bar {
+    width: 100%;
+    padding: 50px 10px 10px 50px;
+  }
+}
+
+@media (max-width: 770px) and (min-width: 480px) {
+  .nav-bar {
+    width: 50%;
+  }
 }
