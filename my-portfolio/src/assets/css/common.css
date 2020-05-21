@@ -1,0 +1,4 @@
+:root {
+  --main-color: rgb(235, 254, 0);
+  --font-backdrop: -2px 1px 0px var(--main-color);
+}

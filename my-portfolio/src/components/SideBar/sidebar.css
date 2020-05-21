@@ -15,8 +15,7 @@
   justify-content: flex-start;
   font-size: 64px;
   font-weight: 100;
-  text-shadow: -3px 1px 0px rgb(235, 254, 0);
-  transform: rotate(0.08deg);
+  text-shadow: var(--font-backdrop);;
 }
 .sidebar-header strong {
   font-weight: 400;
@@ -26,7 +25,6 @@
   font-weight: 500;
   margin-right: 10px;
   text-shadow: none;
-  transform: none;
 }
 .sidebar-body {
   font-style: normal;
@@ -86,5 +84,4 @@
 
 .sidebar-header .emoji {
   text-shadow: none;
-  transform: none;
 }
