@@ -32,3 +32,9 @@
 .nav-bar a:hover {
   text-decoration: line-through;
 }
+
+.nav-bar-close {
+  height: 0px;
+  overflow: auto;
+  padding: 0px;
+}

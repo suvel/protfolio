@@ -12,8 +12,6 @@
   background-position: center;
 }
 
-.menubar:hover {
-  width: 55px;
-  height: 55px;
+.menubar-select {
   background-image: url("../../assets/images/maubar-icon-b4.svg");
 }
