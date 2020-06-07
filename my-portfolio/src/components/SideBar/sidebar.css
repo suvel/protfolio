@@ -44,7 +44,7 @@
   }
   .sidebar-container {
     width: auto;
-    height: auto;
+    max-height: calc(100% - 28vh);
     background: transparent;
     padding: 28vh 10px 0px 10px;
   }
